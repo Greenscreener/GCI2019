@@ -24,3 +24,4 @@ cat img3.png <(printf "\ngrnscrnr") stage5.rat.zg > this-is-such-a-lovely-pictur
 cd - > /dev/null
 cp $tmpDir/this-is-such-a-lovely-picture.png .
 printf "$(pwd)/this-is-such-a-lovely-picture.png written. Done.\n"
+rm -r $tmpDir

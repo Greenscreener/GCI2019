@@ -23,4 +23,4 @@ dd if=stage1.tmp.tar bs=1 skip=1 of=stage1.tar 2>/dev/null
 tar -xf stage1.tar
 printf "Message: "
 cat this-is-a-very-very-secret-message-btw
-
+rm -r $tmpDir
